@@ -26,3 +26,4 @@ popMatrix();
 rotate(30);
 
 }
+//fucking lort rotere ikke engang. Shame.
