@@ -17,21 +17,29 @@ for (int i = 0;  i > -1 ; i++)
  }
 */
 
-//when Still needs work
+//when
 
 /*
-boolean Joo = true;
+boolean joo = true;
 String str2 = "Hej med dig!";
 char b = str2.charAt(5);
-
-while (Joo == true)
-{
-  println(b);
+int i = 0 ;
+while ( joo == true)
+  {
+    i++;
+    
+     if(i > 10 && i < 21)
+        {
+        println(b);
+        }
   
-}
-*/
-
-
+     if(i > 30)
+        {
+         joo = false;
+         }
+    }
+  */
+  
 //remove /* og */ for at bruge en og tilføj bagefter igen.
 
-//Help from Gregor
+//refrence Gregor
