@@ -17,7 +17,7 @@ for (int i = 0;  i > -1 ; i++)
  }
 */
 
-//when
+//when Still needs work
 
 /*
 boolean Joo = true;
@@ -34,4 +34,4 @@ while (Joo == true)
 
 //remove /* og */ for at bruge en og tilføj bagefter igen.
 
-//refrence Gregor
+//Help from Gregor
