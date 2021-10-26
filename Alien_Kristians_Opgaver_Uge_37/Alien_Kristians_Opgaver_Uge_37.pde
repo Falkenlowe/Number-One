@@ -19,7 +19,8 @@ void draw(){
   line(300,0,300,600);//vertical line
   line (0,300,600,300); //Horizontal line
   
-  
+//_________________________________________________________________
+
   // make body and color black
   fill(0,0,0);
   rect(125,120,50,100);
@@ -71,14 +72,60 @@ void draw(){
   text("Greg", 420, 270);
   
 //___________________________________________________________________________________
-  //Alien 3 Refrence: ChrisBruhn
+  //Alien 3
   
+    fill(88,77,66);
+  rect(125,420,50,100);
   
+  // make head and color white
+  fill(255,55,255);
+  circle(150,375,100);
   
+  // make eys and color black
+  fill(0,0,0);
+  ellipse(125, 375, 25, 50);
+  ellipse(175, 375, 25, 50);
   
+  //make legs and thick
+  strokeWeight(5);
+  line(125,520,110,550);
+  line(175,520,195,550);
+    
+  textSize(32);
+  text("Alie", 420, 570);
+ 
   
+
   
+//___________________________________________________________________________________
+  //Alien 4 
   
+   // Body
+  fill(55,0,66);
+  rect(425,420,50,100);
+  
+ // Head
+  fill(255,255,255);
+  circle(450,375,100);
+
+ 
+ //Eyes
+   strokeWeight(2.5);
+   fill(200,75,6);
+  ellipse(425, 375, 25, 50);
+  ellipse(475, 375, 25, 50);
+ 
+ //legs
+   strokeWeight(5);
+  line(425,520,410,550);
+  line(475,520,495,550);
+  
+  fill(0);
+  textSize(32);
+  text("Quinn", 420, 570);
+  
+
+//__________________________________________________________________
   
 }
 
